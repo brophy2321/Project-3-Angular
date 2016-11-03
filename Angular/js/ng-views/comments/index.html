@@ -1,0 +1,12 @@
+<h2>Create Comment</h2>
+
+<form>
+  <input placeholder="Name" data-ng-model="vm.comment.commenter" />
+  <textarea placeholder="Comment content" data-ng-model="vm.comment.body"></textarea>
+  <button type="button" data-ng-click="vm.create()">Create</button>
+</form>
+
+<div data-ng-repeat="comment in vm.comments">
+  <p><a data-ui-sref="commentShow({id: comment.id})">{{comment.title}}</a></p>
+  <a data-ui-sref="commentEdit({id: comment.id})">Edit</a>
+</div>

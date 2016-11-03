@@ -1,0 +1,145 @@
+body {
+  background-color: lightgreen;
+
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  border: 5px double black;
+  border-radius: 10px;
+  box-shadow: 0 0 50px;
+}
+
+
+h1{
+
+}
+
+h2, h3{
+  font-family: 'Fredoka One', cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Fredoka One', cursive;
+}
+
+.categoryImage {
+  display: inline-block;
+}
+
+
+#headTitle {
+  font-size: 70px;
+  font-family: 'Vast Shadow', cursive;
+  background-color: orange;
+  background-image: url("image/holdinghands.png");
+  background-size: cover;
+  height: 150px;
+
+}
+.cover {
+  background-image: url("image/clouds.png");
+  background-size: cover;
+
+  text-align: center;
+  margin: 50px;
+  border: 20px double grey;
+  border-radius: 20px;
+}
+.categoryButton {
+    background-color: #7FFFD4;
+  margin-top: 70px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.disasterButton {
+  background-color: #7FFFD4;
+  margin-top: 70px;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.description, .preperation {
+  background-color: skyblue;
+}
+
+
+.copyright {
+  background-color: lightgrey;
+  text-align: center;
+}
+
+footer {
+  background-color: orange;
+}
+
+ul {
+    overflow: auto;
+}
+
+ul li {
+    list-style-type: none;
+    float:left;
+}
+
+ul li a i {
+    background: #205D7A;
+    color: #fff;
+    width: 40px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+
+}
+.fa-facebook {
+    background:#3b5998
+}
+.fa-linkedin {
+    background:#007bb6
+}
+.fa-twitter {
+    background:#00aced
+}
+.google-plus {
+    background:#dd4b39
+}
+ul li a i:hover {
+    opacity: .7;
+}
+
+header {
+  background-color: teal;
+  height: 50px
+}
+.home {
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+}
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url("searchicon.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;*/
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left: 1200px;
+}
+input[type=text]:focus {
+    width: 30%;
+}

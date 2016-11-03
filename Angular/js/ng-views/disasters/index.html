@@ -1,0 +1,10 @@
+<h2>These are all the Disasters</h2>
+
+<div data-ng-repeat="disaster in DisasterIndexViewModel.disasters">
+  <p>{{disaster.title}}</p>
+</div>
+
+<div data-ng-repeat= "category in vm.categories">
+  {{category}}
+  <p><a data-ui-sref="categoryShow ({ id: category.id})"> {{category.title}}</a></p>
+</div>

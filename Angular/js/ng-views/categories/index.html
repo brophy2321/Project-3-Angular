@@ -1,0 +1,6 @@
+<h2>Categories of Natural Disasters </h2>
+
+<div data-ng-repeat="category in vm.categories">
+  <button class="categoryButton"<a data-ui-sref="categoryShow({id: category.id})">{{category.title}}</a></button><br>
+<img clsaa="categoryImage" src="{{category.photo_url}}">
+</div>
