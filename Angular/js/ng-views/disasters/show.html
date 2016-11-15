@@ -1,12 +1,12 @@
 <h2>{{vm.disaster.title}}</h2>
 <img src="{{vm.disaster.photo_url}}">
-<p>
+
 
  <h2>Description</h2>
  <p class="description">
     {{vm.disaster.description}}
   </p>
- <p>
+
 
 
 
@@ -17,7 +17,7 @@
 
 
 <div data-ng-repeat="disaster vm.category.disasters">
-=======
+
 <img src="{{vm.disaster.photo_url}}">
 
 
@@ -29,7 +29,7 @@
   <h1>Context</h1>
 {{vm.comment.body}}
 </p>
-<img src="{{vm.comment.photo_url}}">
+<!-- <img src="{{vm.comment.photo_url}}"> -->
 
 <form data-ng-submit="vm.update()">
 
